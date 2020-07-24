@@ -47,7 +47,7 @@
       "jest-canvas-mock"
     ],
     "transform": {
-      "^.+\\.(js|jsx|ts|tsx)$": "./node_modules/babel-jest"
+      
     },
     "moduleFileExtensions": [
       "js",
@@ -76,7 +76,6 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "antd": "^4.4.3",
-    "babel-jest": "^26.1.0",
     "codecov": "^3.7.2",
     "cross-env": "^7.0.2",
     "customize-cra": "^1.0.0",
