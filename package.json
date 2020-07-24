@@ -11,8 +11,7 @@
     "commit": "npx git-cz",
     "lint": "eslint --fix --ext tsx,ts src",
     "prettier": "prettier --write --check ./**/*.{ts,tsx,less}",
-    "prebuild": "npm run lint && rimraf ./dist",
-    "test": "react-app-rewired test"
+    "prebuild": "npm run lint && rimraf ./dist"
   },
   "husky": {
     "hooks": {
