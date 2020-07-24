@@ -1,4 +1,4 @@
-export const store = window.localStorage;
+const store = window.localStorage;
 
 class localStore {
   /**

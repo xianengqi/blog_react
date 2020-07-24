@@ -1770,6 +1770,14 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/hoist-non-react-statics@^3.3.0":
+  version "3.3.1"
+  resolved "https://registry.npm.taobao.org/@types/hoist-non-react-statics/download/@types/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+  integrity sha1-ESSq/lEYy1kZd66xzqrtEHDrA58=
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.3"
   resolved "https://registry.npm.taobao.org/@types/istanbul-lib-coverage/download/@types/istanbul-lib-coverage-2.0.3.tgz#4ba8ddb720221f432e443bd5f9117fd22cfd4762"
@@ -1849,6 +1857,16 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-redux@^7.1.9":
+  version "7.1.9"
+  resolved "https://registry.npm.taobao.org/@types/react-redux/download/@types/react-redux-7.1.9.tgz#280c13565c9f13ceb727ec21e767abe0e9b4aec3"
+  integrity sha1-KAwTVlyfE863J+wh52er4Om0rsM=
+  dependencies:
+    "@types/hoist-non-react-statics" "^3.3.0"
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+    redux "^4.0.0"
+
 "@types/react@*", "@types/react@^16.9.0":
   version "16.9.43"
   resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.43.tgz?cache=0&sync_timestamp=1594635418937&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Freact%2Fdownload%2F%40types%2Freact-16.9.43.tgz#c287f23f6189666ee3bebc2eb8d0f84bcb6cdb6b"
@@ -1856,6 +1874,29 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
+
+"@types/redux-actions@*":
+  version "2.6.1"
+  resolved "https://registry.npm.taobao.org/@types/redux-actions/download/@types/redux-actions-2.6.1.tgz#0940e97fa35ad3004316bddb391d8e01d2efa605"
+  integrity sha1-CUDpf6Na0wBDFr3bOR2OAdLvpgU=
+
+"@types/redux-form@*":
+  version "8.2.7"
+  resolved "https://registry.npm.taobao.org/@types/redux-form/download/@types/redux-form-8.2.7.tgz#24282b798b4c1181b1ba4c94b2f92c2ee8dc8ada"
+  integrity sha1-JCgreYtMEYGxukyUsvksLujcito=
+  dependencies:
+    "@types/react" "*"
+    redux "^3.6.0 || ^4.0.0"
+
+"@types/redux-saga-routines@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/@types/redux-saga-routines/download/@types/redux-saga-routines-3.1.0.tgz#9d7bc88cf76b42ba9625e05846fb2181d7d9f228"
+  integrity sha1-nXvIjPdrQrqWJeBYRvshgdfZ8ig=
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/redux-actions" "*"
+    "@types/redux-form" "*"
+    redux "^3.6.0 || ^4.0.0"
 
 "@types/stack-utils@^1.0.1":
   version "1.0.1"
@@ -5685,7 +5726,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.2:
+hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npm.taobao.org/hoist-non-react-statics/download/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
   integrity sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U=
@@ -9910,10 +9951,21 @@ react-error-overlay@^6.0.7:
   resolved "https://registry.npm.taobao.org/react-error-overlay/download/react-error-overlay-6.0.7.tgz#1dcfb459ab671d53f660a991513cb2f0a0553108"
   integrity sha1-Hc+0WatnHVP2YKmRUTyy8KBVMQg=
 
-react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
+react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.9.0:
   version "16.13.1"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz?cache=0&sync_timestamp=1595005542670&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
+
+react-redux@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.npm.taobao.org/react-redux/download/react-redux-7.2.0.tgz?cache=0&sync_timestamp=1581999437877&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-redux%2Fdownload%2Freact-redux-7.2.0.tgz#f970f62192b3981642fec46fd0db18a074fe879d"
+  integrity sha1-+XD2IZKzmBZC/sRv0NsYoHT+h50=
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    hoist-non-react-statics "^3.3.0"
+    loose-envify "^1.4.0"
+    prop-types "^15.7.2"
+    react-is "^16.9.0"
 
 react-router-dom@^5.2.0:
   version "5.2.0"
@@ -10172,7 +10224,7 @@ redux-saga@^1.1.3:
   dependencies:
     "@redux-saga/core" "^1.1.3"
 
-redux@^4.0.4, redux@^4.0.5:
+"redux@^3.6.0 || ^4.0.0", redux@^4.0.0, redux@^4.0.4, redux@^4.0.5:
   version "4.0.5"
   resolved "https://registry.npm.taobao.org/redux/download/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
   integrity sha1-TbXeWBbheJHeioDEJCMtBvBR2T8=
