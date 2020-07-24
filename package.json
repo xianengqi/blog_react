@@ -7,7 +7,7 @@
     "build": "react-app-rewired build",
     "coverage": "codecov",
     "commit": "npx git-cz",
-    "lint": "eslint --fix --ext tsx,ts src __tests__",
+    "lint": "eslint --fix --ext tsx,ts src",
     "prettier": "prettier --write --check ./**/*.{ts,tsx,less}",
     "prebuild": "npm run lint && rimraf ./dist",
     "test": "react-app-rewired test"
@@ -16,7 +16,7 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "npm run prettier",
-      "pre-push": "eslint --fix --ext tsx,ts src __tests__"
+      "pre-push": "eslint --fix --ext tsx,ts src"
     }
   },
   "commitlint": {
