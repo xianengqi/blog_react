@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
+  "homepage": "https://xianengqi.github.io/blog_react",
   "scripts": {
-    "start": "cross-env env-cmd -e dev react-app-rewired  start",
+    "start": "cross-env env-cmd -e dev react-app-rewired start",
     "build": "react-app-rewired build",
     "coverage": "codecov",
     "commit": "npx git-cz",
@@ -43,10 +44,8 @@
   },
   "jest": {
     "testMatch": [
-      "**/__tests__/**/*.(test|spec).ts?(x)"
     ],
     "setupFiles": [
-      "./__tests__/setupTests.ts",
       "jest-canvas-mock"
     ],
     "transform": {
