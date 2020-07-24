@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.less"],"names":[],"mappings":"AAAA,gCAII,WAGJ","file":"main.b7bdbf1f.chunk.css","sourcesContent":["body,\nhtml {\n  height: 100%;\n  #root {\n    height: 100%;\n  }\n}\n\n@primary-color: #d214a2;@font-size-base: 12px;"]}
