@@ -2,6 +2,7 @@
   "name": "blog_react",
   "version": "0.1.0",
   "private": false,
+  "license": "MIT",
   "scripts": {
     "start": "cross-env env-cmd -e dev react-app-rewired  start",
     "build": "react-app-rewired build",
